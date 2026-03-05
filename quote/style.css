@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #99f671;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background: white;
+    padding: 150px;
+    width: 650px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.quote-box{
+    margin-bottom: 20px;
+}
+
+#quote{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#author{
+    font-size: 16px;
+    color: gray;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    background: #55b82e;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: green;
+}
